@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700&display=swap");
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1160px;
+  margin: auto;
+}
+
+.justify-content-end {
+  margin-right: -122px;
+}
+
+/* footer  */
+footer {
+  background: #7b4937;
+  padding: 15px 0;
+  color: white;
+  margin: 0 auto;
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+}
+footer.line {
+  border-top: #ca4012 4px solid;
+}
+.port {
+  max-width: 1160px;
+  margin: auto;
+}
+.port2 {
+  max-width: 1900px;
+  margin: auto;
+}
+.btSiteFooter .port p {
+  margin-bottom: 0;
+  float: left;
+}
+
+footer .port ul {
+  list-style: none;
+  float: right;
+}
+footer .port ul li {
+  float: left;
+}
+footer .port ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding-right: 20px;
+  margin-top: 2px;
+}
+
+footer .port ul li a:hover {
+  color: #2ecc71;
+}
+/* card brown  */
+.card .card-brown {
+  background-color: rgba(120, 69, 51, 1);
+  background-position: center bottom;
+  color: white;
+  padding-top: 20%;
+}
+.card .card-brown p {
+  font-family: "Lato", sans-serif;
+  padding-right: 49px;
+  margin: 0 0 16px;
+  font-size: 20px;
+  line-height: 1.55;
+  justify-content: left;
+}
+.card .card-brown span {
+  font-family: "Lora", serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+/* card orange  */
+.card-group.simbol {
+  position: absolute;
+}
+.card-group.simbol .card {
+  background-color: transparent;
+}
+.card .card-orange {
+  background-color: rgba(202, 64, 18, 1);
+  background-position: center bottom;
+  color: white;
+}
+.card .card-orange p {
+  font-family: "Lato", sans-serif;
+  padding-right: 49px;
+  margin: 0 0 16px;
+  font-size: 20px;
+  line-height: 1.55;
+  justify-content: left;
+}
+.card .card-orange span {
+  font-family: "Lora", serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+.card {
+  border: none;
+}
+
+/* card login  */
+.card-body.login {
+  background-color: rgba(0, 0, 0, 0.897);
+  color: white;
+  padding-top: 30%;
+}
+/* car our products  */
+.card-body.our-products {
+  padding-top: 20%;
+  margin: 0 15px;
+  line-height: 1.55;
+}
+.card-body.our-products span {
+  font-size: 60px;
+  font-family: "Lora", serif;
+  font-weight: bold;
+}
+.card-body.our-products p {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  margin: 0 0 16px;
+}
+/* card simbol  */
+.card-group .card ul li img {
+  width: 50px;
+  color: aquamarine;
+  background-color: orange;
+}
+.card-group .card ul {
+  list-style: none;
+}
+
+/* header */
+.navbar {
+  padding-top: 20px;
+}
+.fixed-top .navbar-brand {
+  margin-left: 220px;
+}
+.fixed-top #navbarNav {
+  margin-right: 220px;
+}
+nav.navbar-expand-lg.navbar-light.bg-light {
+  position: relative;
+  padding: 23px 0 0;
+}
+#navbarNav ul li a {
+  margin-left: 30px;
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+#navbarNav ul li a:hover {
+  color: #2ecc71;
+}
+#navbarNav ul li a:active {
+  box-shadow: 0 -3px 0 0 #2ecc71 inset;
+}
+.red {
+  background-color: transparent;
+  z-index: 1;
+}
+.affix {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.affix #navbarNav ul li a {
+  color: #444;
+}
+.affix #navbarNav ul li a:hover {
+  color: #2ecc71;
+}
+
+.gallery-navbar #navbarTogglerDemo03 ul li a {
+  margin-left: 30px;
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* gallery  */
+.container-fluid h1 {
+  font-family: "Lora", serif;
+  color: #222222;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.card-deck .card ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* contac-us  */
+.card-body.login span {
+  font-family: "Lora", serif;
+  font-size: 35px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+.card-body.login p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  margin: 0 0 14px;
+}
+.card-body.login input {
+  padding: 0 20px;
+  height: 44px;
+  width: 100%;
+  display: block;
+  font-family: "Lora", serif;
+  font-size: 15px;
+  line-height: initial;
+  font-weight: 300;
+  border: none;
+  box-shadow: 0 0 0 2px transparent inset;
+  -webkit-appearance: none;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 0.075);
+  color: white;
+}
+
+/* home  */
+.card-group ul li img.rounded-circle {
+  position: relative;
+  margin-bottom: -80px;
+  z-index: 1;
+}
+.navbar-toggler {
+  background-color: darkmagenta;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../img/right-chevron.svg);
+  height: 220px;
+}
+.carousel-control-prev-icon {
+  background-image: url(../img/left-chevron.svg);
+}
+
+.card .btSubtitle {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  line-height: 1.55;
+  clear: both;
+}

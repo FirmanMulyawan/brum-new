@@ -1,0 +1,161 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  nav.affix a img.d-inline-block,
+  .fixed-top a img.d-inline-block {
+    width: 40px;
+  }
+  .fixed-top #navbarNav ul li a {
+    font-size: 10px;
+  }
+  .card .card-brown p,
+  .card .card-brown h5,
+  .card .card-brown span,
+  .card-body.our-products span,
+  .card-body.our-products p,
+  .card .card-orange p,
+  .card .card-orange span {
+    font-size: 16px;
+    line-height: 1.55;
+    text-align: left;
+  }
+  p.card-title.btSubtitle,
+  p.card-text.btSubtitle {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    line-height: 1.55;
+    text-align: center;
+  }
+  .navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .fixed-top .navbar-brand,
+  .gallery-navbar a.navbar-brand {
+    margin-left: 20px;
+  }
+  .fixed-top #navbarNav,
+  .gallery-navbar a.navbar-brand {
+    margin-right: 20px;
+  }
+  .card-group .btSubtitle {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    line-height: 1.55;
+    clear: both;
+  }
+  footer {
+    padding: 12px 0;
+    margin: 0 auto;
+    font-size: 10px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  nav.affix a img.d-inline-block,
+  .fixed-top a img.d-inline-block {
+    width: 50px;
+  }
+  .navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .fixed-top .navbar-brand,
+  .gallery-navbar a.navbar-brand {
+    margin-left: 20px;
+  }
+  .fixed-top #navbarNav,
+  .gallery-navbar a.navbar-brand {
+    margin-right: 20px;
+  }
+  p.card-title.btSubtitle,
+  p.card-text.btSubtitle {
+    font-size: 10px;
+    font-family: "Lato", sans-serif;
+    line-height: 1.55;
+    text-align: left;
+  }
+  .card .card-brown p,
+  .card .card-brown h5,
+  .card .card-brown span,
+  .card-body.our-products span,
+  .card-body.our-products p,
+  .card .card-orange p,
+  .card .card-orange span {
+    font-size: 14px;
+    line-height: 1.55;
+    text-align: left;
+  }
+  .gallery-navbar a.navbar-brand {
+    margin-left: 20px;
+  }
+  .card-deck .card-body .h5 {
+    font-size: 15px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  nav.affix a img.d-inline-block,
+  .fixed-top a img.d-inline-block {
+    width: 50px;
+  }
+  .fixed-top .navbar-brand,
+  .gallery-navbar a.navbar-brand {
+    margin-left: 20px;
+  }
+  .fixed-top #navbarNav,
+  .gallery-navbar a.navbar-brand {
+    margin-right: 20px;
+  }
+  .card .card-brown p,
+  .card .card-brown h5,
+  .card .card-brown span,
+  .card-body.our-products span,
+  .card-body.our-products p,
+  .card .card-orange p,
+  .card .card-orange span {
+    font-size: 16px;
+    line-height: 1.55;
+    text-align: left;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  nav.affix a img.d-inline-block,
+  .fixed-top a img.d-inline-block {
+    width: 60px;
+  }
+  .fixed-top .navbar-brand,
+  .gallery-navbar a.navbar-brand {
+    margin-left: 20px;
+  }
+  .fixed-top #navbarNav,
+  .gallery-navbar a.navbar-brand {
+    margin-right: 20px;
+  }
+  .card .card-brown p,
+  .card .card-brown h5,
+  .card .card-brown span,
+  .card-body.our-products span,
+  .card-body.our-products p,
+  .card .card-orange p,
+  .card .card-orange span {
+    font-size: 16px;
+    line-height: 1.55;
+    text-align: left;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* .fixed-top .navbar-brand,
+  .gallery-navbar a.navbar-brand {
+    margin-left: 20px;
+  }
+  .fixed-top #navbarNav,
+  .gallery-navbar a.navbar-brand {
+    margin-right: 20px;
+  } */
+}
