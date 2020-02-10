@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  max-width: 1160px;
+  max-width: 1350px;
   margin: auto;
 }
 
@@ -158,6 +158,7 @@ nav.navbar-expand-lg.navbar-light.bg-light {
   position: relative;
   padding: 23px 0 0;
 }
+
 #navbarNav ul li a {
   margin-left: 30px;
   font-family: "Lora", serif;
@@ -165,12 +166,14 @@ nav.navbar-expand-lg.navbar-light.bg-light {
   color: white;
   font-size: 14px;
   font-weight: 700;
+  padding: 0;
 }
 #navbarNav ul li a:hover {
   color: #2ecc71;
 }
-#navbarNav ul li a:active {
-  box-shadow: 0 -3px 0 0 #2ecc71 inset;
+ul.navbar-nav li.nav-item.active a.nav-link {
+  box-shadow: 0 3px 0 0 #2ecc71;
+  padding-bottom: 10px !important;
 }
 .red {
   background-color: transparent;
@@ -265,4 +268,29 @@ nav.navbar-expand-lg.navbar-light.bg-light {
   font-family: "Lato", sans-serif;
   line-height: 1.55;
   clear: both;
+}
+
+.card-deck .card ul li a img.card-img-top {
+  width: 366.66px;
+  height: 300px;
+  border-radius: 0 !important;
+}
+.card-deck {
+  margin-bottom: 80px;
+}
+.card-deck .card-footer {
+  width: 366.66px !important;
+  border-radius: 0 !important;
+  z-index: 999;
+  box-sizing: border-box;
+  bottom: 17px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  line-height: normal;
+  background: rgba(17, 17, 17, 0.62);
+  /* background:(17, 17, 17, 0.62); */
 }
